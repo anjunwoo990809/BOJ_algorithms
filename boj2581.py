@@ -10,7 +10,7 @@ def is_primary(n):
         divider = n-1 # 2 이상
         res = True
         while divider > 1:
-            if num % divider != 0:
+            if n % divider != 0:
                 divider -= 1
             else:
                 res = False
